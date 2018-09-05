@@ -7,13 +7,19 @@ This branch is only for the installer script. Master branch includes all the con
 Feel free to use it and even make suggestions, however I may decline changes
 if there's no value to me.
 
-## Install
+## Install (Expert Mode)
 
 (:warning: **DO NOT** run this if you don't fully
 understand [what it does](install.sh). Seriously, **DON'T**!)
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/install.sh)"
+```
+
+## Install (Normal Mode)
+
+```sh
+$ git clone --recursive -b master https://github.com/janesmae/dotfiles.git ~/.files
 ```
 
 ## Support
