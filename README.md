@@ -1,6 +1,8 @@
 # dotFiles 2.0
 
-This is the "welcome" screen to my .files including vim, zsh, git, and tmux configurations. The master branch includes all the configs.
+This is the "welcome" screen to my .files including vim, zsh, git, and tmux configurations.
+
+This branch is only for the installer script. Master branch includes all the configs and settings.
 
 Feel free to use it and even make suggestions, however I may decline changes
 if there's no value to me.
