@@ -11,7 +11,6 @@ case "$(uname)" in
 	Darwin)
 		if [ ! -f "$(command -v brew)" ]; then
 			/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-			
 		fi
 	;;
 esac
@@ -56,4 +55,3 @@ sudo scutil --set ComputerName "Base"
 sudo scutil --set HostName "Base"
 sudo scutil --set LocalHostName "Base"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Base"
-
