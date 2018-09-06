@@ -32,7 +32,7 @@ Please read [CONTRIBUTING.md][contributing] for details on our Contribution Guid
 
 The process for submitting pull requests:.
 
-* Fork it!
+* [Fork it!](fork)
 * Create your feature branch: `git checkout -b my-new-feature`
 * Commit your changes: `git commit -am 'Add some feature'`
 * Push to the branch: `git push origin my-new-feature`
@@ -49,3 +49,4 @@ You can find a copy of this license in [LICENSE][license] file or [https://opens
 [license]:        ./LICENSE
 [license_web]:    https://opensource.org/licenses/MIT
 [changelog]:      ./CHANGELOG.md
+[fork]:           https://github.com/janesmae/dotfiles/fork
