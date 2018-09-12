@@ -51,6 +51,8 @@ mkdir -p ~/Screenshots
 
 vim +PluginInstall +qall
 
+brew bundle install --file=~/.files/install/Brewfile
+
 sudo scutil --set ComputerName "Base"
 sudo scutil --set HostName "Base"
 sudo scutil --set LocalHostName "Base"
