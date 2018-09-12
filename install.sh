@@ -7,6 +7,9 @@ DOTFILES_VERSION='2.0.0'
 DOTFILES_REPOSITORY="https://github.com/janesmae/dotfiles.git"
 DOTFILES_FOLDER="$HOME/.files"
 
+sudo -v
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 case "$(uname)" in
 	Darwin)
 		if [ ! -f "$(command -v brew)" ]; then
@@ -51,9 +54,27 @@ mkdir -p ~/Screenshots
 
 vim +PluginInstall +qall
 
-brew bundle install --file=~/.files/install/Brewfile
+brew bundle install --file=- <<_BREW
+$(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/Brewfile)
+_BREW
 
 sudo scutil --set ComputerName "Base"
 sudo scutil --set HostName "Base"
 sudo scutil --set LocalHostName "Base"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Base"
+sudo pmset -a standbydelay 86400
+
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock static-only -bool true
+defaults write com.apple.dock show-process-indicators -bool false
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 20
+defaults write NSGlobalDomain AppleInterfaceStyle -string Dark
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
+defaults write com.apple.screencapture type -string "png"
+
+chflags nohidden ~/Library
