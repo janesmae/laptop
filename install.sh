@@ -54,6 +54,11 @@ mkdir -p ~/Screenshots
 
 vim +PluginInstall +qall
 
+
+case "$(uname)" in
+	Darwin)
+		if [ ! -f "$(command -v brew)" ]; then
+
 brew bundle install --file=- <<_BREW
 $(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/Brewfile)
 _BREW
@@ -78,3 +83,7 @@ defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
 defaults write com.apple.screencapture type -string "png"
 
 chflags nohidden ~/Library
+
+		fi
+	;;
+esac
