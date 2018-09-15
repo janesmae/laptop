@@ -54,6 +54,8 @@ ln -sfn ~/.files/git/gitignore ~/.gitignore
 ln -sfn ~/.files/git/gitattributes ~/.gitattributes
 ln -sfn ~/.files/git/gitmessage ~/.gitmessage
 ln -sfn ~/.files/ansible/ansible.cfg ~/.ansible.cfg
+ln -sfn ~/.files/ansible/ ~/.ansible
+ln -sfn ~/.files/ssh/ ~/.ssh
 
 # Create folders
 mkdir -p ~/Development
