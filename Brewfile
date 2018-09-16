@@ -7,9 +7,8 @@ tap "homebrew/core"
 
 ## Homebrew applications ##
 
-# Utilities bundles
+# Utility bundles
 brew 'coreutils'		# GNU Coreutils
-brew 'dockutil'			# Manage dock from CLI
 brew 'moreutils'		# Missing Coreutils
 
 # Essential
@@ -52,6 +51,8 @@ cask 'google-chrome'
 cask 'signal'			# Encrypted communications
 cask 'skype'			# Online video calls, chat
 cask 'slack'			# Team chats
+# cask 'mumble'			# Voice chat
+# cask 'rocket-chat'		# Team chats 
 
 # Media
 # cask 'soundcleod'		# Soundcloud desktop application
@@ -65,7 +66,6 @@ cask 'gpg-suite'		# Encryption
 # cask 'keycastr'		# Screencasting key presses
 # cask 'little-snitch'		# Application Firewall
 # cask 'numi'			# Text calculator
-# cask 'tunnelblick'		# VPN software
 
 # Developer Tools
 cask 'atom'			# Gegeral IDE
