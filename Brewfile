@@ -51,8 +51,8 @@ cask 'google-chrome'
 cask 'signal'			# Encrypted communications
 cask 'skype'			# Online video calls, chat
 cask 'slack'			# Team chats
-# cask 'mumble'			# Voice chat
-# cask 'rocket-chat'		# Team chats 
+# cask 'mumble'			# Voice chat, seasonal usage
+# cask 'rocket-chat'		# Team chats, seasonal usage
 
 # Media
 # cask 'soundcleod'		# Soundcloud desktop application
