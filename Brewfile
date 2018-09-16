@@ -90,6 +90,9 @@ mas 'Next Meeting',	id: 1017470484		# Display next calendar meeting in menu bar
 # mas '1Password', 	id: 443987910		# 1Password 6 from AppStore
 # mas 'Daisydisk',	id: 411643860		# See how you use space on your harddrives
 
+# Media 
+# mas 'Final Cut Pro',	id: 424389933
+
 # Office alternative
 # mas 'Keynote',	id: 409183694
 # mas 'Numbers',	id: 409203825
