@@ -96,6 +96,7 @@ defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1			# Download up
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"			# Show remaining battery percentage
 
 defaults write com.apple.dock autohide -bool true					# Hide dock
+defaults write com.apple.dock orientation right						# Move dock on the right side
 defaults write com.apple.dock static-only -bool true					# Show only running apps
 defaults write com.apple.dock show-process-indicators -bool false			# Remove indicators
 defaults write com.apple.dock tilesize -int 36						# Set new dock icon size
