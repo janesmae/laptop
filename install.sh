@@ -81,6 +81,7 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 
 sudo pmset -a standbydelay 86400							# Set a long standby delay
 
+defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false		# Disable menu bar transparency
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3				# Focus between all elements
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true				# Show all file extentions
 defaults write NSGlobalDomain KeyRepeat -int 1						# Key repeat superfast
@@ -91,6 +92,8 @@ defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true			# Disab
 defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true		# Turn on automatic update check
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1			# check for updates daily
 defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1			# Download updated in the background
+
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"			# Show remaining battery percentage
 
 defaults write com.apple.dock autohide -bool true					# Hide dock
 defaults write com.apple.dock static-only -bool true					# Show only running apps
@@ -114,6 +117,7 @@ defaults write com.apple.finder ShowStatusBar -bool true				# Show status bar in
 
 defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true		# Show full url in Safari
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false			# Do not ipen safe files
+defaults write com.apple.Safari IncludeDebugMenu -bool true				# Enable Safari debug menu
 
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true		# Disable Photos.app hotplug opening
 
