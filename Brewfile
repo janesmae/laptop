@@ -62,10 +62,10 @@ cask 'alfred'			# Little helper all around
 cask 'appcleaner'		# Application remover
 cask 'bartender'		# Menu bar helper
 cask 'gpg-suite'		# Encryption
+cask 'numi'			# Text calculator
 # cask 'etcher'			# Writing images to USB and SD cards
 # cask 'keycastr'		# Screencasting key presses
 # cask 'little-snitch'		# Application Firewall, this only downloads the installer, needs additional steps
-# cask 'numi'			# Text calculator
 
 # Developer Tools
 cask 'atom'			# Gegeral IDE
