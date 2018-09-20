@@ -64,6 +64,7 @@ cask 'bartender'		# Menu bar helper
 cask 'gpg-suite'		# Encryption
 cask 'numi'			# Text calculator
 # cask 'etcher'			# Writing images to USB and SD cards
+# cask 'hazel'			# Automated organization of files
 # cask 'keycastr'		# Screencasting key presses
 # cask 'little-snitch'		# Application Firewall, this only downloads the installer, needs additional steps
 
