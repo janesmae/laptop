@@ -48,5 +48,5 @@ You can find a copy of this license in [LICENSE][license] file or [https://opens
 [contributing]:   ./CONTRIBUTING.md
 [license]:        ./LICENSE
 [license_web]:    https://opensource.org/licenses/MIT
-[changelog]:      ./CHANGELOG.md
+[changelog]:      https://github.com/janesmae/dotfiles/blob/master/CHANGELOG.md
 [fork]:           https://github.com/janesmae/dotfiles/fork
