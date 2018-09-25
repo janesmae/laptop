@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+# Ask for sudo password and keep sudo alive until script finishes
+sudo -v
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 # Abort on errors and unbound variables, set default file permissons
 set -eu
 umask 022
@@ -7,10 +11,6 @@ umask 022
 DOTFILES_VERSION='2.0.0'
 DOTFILES_REPOSITORY="https://github.com/janesmae/dotfiles.git"
 DOTFILES_FOLDER="$HOME/.files"
-
-# Ask for sudo password and keep sudo alive until script finishes
-sudo -v
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 case "$(uname)" in
 	Darwin)
