@@ -26,6 +26,7 @@ brew 'tree'			# Tree view for folder content
 brew 'wget'
 
 # Developer tools
+brew 'doctl'			# A command line tool for DigitalOcean services
 brew 'git'			# Git
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'hub'			# Github flavoured Git

@@ -1,9 +1,5 @@
 #!/usr/bin/env sh
 
-# Ask for sudo password and keep sudo alive until script finishes
-sudo -v
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
 # Abort on errors and unbound variables, set default file permissons
 set -eu
 umask 022
