@@ -65,6 +65,7 @@ cask 'appcleaner'		# Application remover
 cask 'bartender'		# Menu bar helper
 cask 'gpg-suite'		# Encryption
 cask 'numi'			# Text calculator
+cask '1password'		# Install 1password7
 # cask 'etcher'			# Writing images to USB and SD cards
 # cask 'hazel'			# Automated organization of files
 # cask 'keycastr'		# Screencasting key presses
@@ -90,7 +91,6 @@ mas 'Airmail 3',	id: 918858936		# Preferred email client
 mas 'DigiDoc4 Client',	id: 1370791134		# Digital signing application for EstEID
 mas 'HazeOver',		id: 430798174		# Helps to focus on app
 mas 'Next Meeting',	id: 1017470484		# Display next calendar meeting in menu bar
-# mas '1Password', 	id: 443987910		# 1Password 6 from AppStore
 # mas 'Daisydisk',	id: 411643860		# See how you use space on your harddrives
 
 # Media 
