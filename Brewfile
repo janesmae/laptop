@@ -64,10 +64,11 @@ cask 'alfred'			# Little helper all around
 cask 'appcleaner'		# Application remover
 cask 'bartender'		# Menu bar helper
 cask 'gpg-suite'		# Encryption
+cask 'hazel'			# Automated organization of files
+cask 'micro-snitch'		# Tracks app attempts to use your microphone or camera
 cask 'numi'			# Text calculator
 cask '1password'		# Install 1password7
 # cask 'etcher'			# Writing images to USB and SD cards
-# cask 'hazel'			# Automated organization of files
 # cask 'keycastr'		# Screencasting key presses
 # cask 'little-snitch'		# Application Firewall, this only downloads the installer, needs additional steps
 
