@@ -1,8 +1,9 @@
 #!/usr/bin/env sh
 
 # Create folders
-mkdir -p ~/Development/personal
-mkdir -p ~/Development/work
-mkdir -p ~/Screenshots
+mkdir -p "${HOME}/Development/personal"
+mkdir -p "${HOME}/Development/work"
+mkdir -p "${HOME}/Screenshots"
+mkdir -p "${HOME}/bin"
 
 
