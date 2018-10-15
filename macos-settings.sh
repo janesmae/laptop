@@ -32,6 +32,7 @@ defaults write com.apple.dock autohide -bool true					# Hide dock
 defaults write com.apple.dock orientation right						# Move dock on the right side
 defaults write com.apple.dock static-only -bool true					# Show only running apps
 defaults write com.apple.dock show-process-indicators -bool false			# Remove indicators
+defaults write com.apple.dock show-recents -bool false					# Remove recent apps from dock
 defaults write com.apple.dock tilesize -int 36						# Set new dock icon size
 
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true		# No .DS_Store on network shares
