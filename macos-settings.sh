@@ -21,6 +21,7 @@ defaults write NSGlobalDomain KeyRepeat -int 1						# Key repeat superfast
 defaults write NSGlobalDomain InitialKeyRepeat -int 20					# Delay before the repeat
 defaults write NSGlobalDomain AppleInterfaceStyle -string Dark				# Menu bar to dark
 defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true			# Disable auto-termination of inactive apps
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true				# Add menu item for developer extras
 
 defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true		# Turn on automatic update check
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1			# check for updates daily
@@ -51,9 +52,16 @@ defaults write com.apple.finder ShowPathbar -bool true					# Show path bar in fi
 defaults write com.apple.finder ShowStatusBar -bool true				# Show status bar in finder window
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false		# Don't show harddrives in desktop
 
+defaults write com.apple.Safari AutoFillFromAddressBook -bool false			# Disable AutoFill address
+defaults write com.apple.Safari AutoFillPasswords -bool false				# Disable AutoFill passwords
+defaults write com.apple.Safari AutoFillCreditCardData -bool false			# Disable AutoFill CC data
+defaults write com.apple.Safari AutoFillMiscellaneousForms -bool false			# Disable other AutoFill items
 defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true		# Show full url in Safari
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false			# Do not ipen safe files
-defaults write com.apple.Safari IncludeDebugMenu -bool true				# Enable Safari debug menu
+defaults write com.apple.Safari IncludeInternalDebugMenu -bool true			# Enable Safari debug menu
+defaults write com.apple.Safari IncludeDevelopMenu -bool true				# Include developer menu
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true	# Include developer extras
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true		# Disable Photos.app hotplug opening
 
