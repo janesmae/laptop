@@ -9,6 +9,9 @@ sudo scutil --set HostName "Base"
 sudo scutil --set LocalHostName "Base"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Base"
 
+# Add message to lock screen
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "If found, contact me:\nlostandfound@janesmae.com"
+
 sudo pmset -a standbydelay 86400							# Set a long standby delay
 
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false		# Disable menu bar transparency
