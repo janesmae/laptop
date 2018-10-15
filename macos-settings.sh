@@ -49,6 +49,7 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true		# 
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true			# Full path in finder window title
 defaults write com.apple.finder ShowPathbar -bool true					# Show path bar in finder window
 defaults write com.apple.finder ShowStatusBar -bool true				# Show status bar in finder window
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false		# Don't show harddrives in desktop
 
 defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true		# Show full url in Safari
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false			# Do not ipen safe files
