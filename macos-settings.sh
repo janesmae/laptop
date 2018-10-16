@@ -3,11 +3,15 @@
 case "$(uname)" in
 	Darwin)
 
+# Ask for computer name
+print "Please enter the desired hostname [Base]:"
+read -r HOSTVAR
+
 # Rename the computer
-sudo scutil --set ComputerName "Base"
-sudo scutil --set HostName "Base"
-sudo scutil --set LocalHostName "Base"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Base"
+sudo scutil --set ComputerName "${HOSTVAR:-Base}"
+sudo scutil --set HostName "${HOSTVAR:-Base}"
+sudo scutil --set LocalHostName "${HOSTVAR:-Base}"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "${HOSTVAR:-Base}"
 
 # Add message to lock screen
 sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "If found, contact me:\nlostandfound@janesmae.com"
