@@ -4,7 +4,7 @@ case "$(uname)" in
 	Darwin)
 
 # Ask for computer name
-echo "Please enter the desired hostname [Base]:"
+echo Please enter the desired hostname [Base]:
 read -r HOSTVAR
 
 # Rename the computer
