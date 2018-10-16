@@ -82,7 +82,7 @@ cask 'atom'			# Gegeral IDE
 
 ## Fonts
 
-cask "caskroom/fonts/font-hack-nerd-font"
+cask "font-hack-nerd-font"
 
 ## MacAppStore ##
 
