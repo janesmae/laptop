@@ -35,6 +35,7 @@ brew 'icdiff'			# Improved colored diff
 brew 'iproute2mac'		# Run "ip addr show" on mac
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'the_silver_searcher'	# Code searching tool, like grep
+brew 'peco'			# Simplistic interactive filtering tool
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store
