@@ -5,7 +5,7 @@ case "$(uname)" in
 
 # Install apps using Brew bundle
 brew bundle install --file=- <<_BREW
-$(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/Brewfile)
+$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/Brewfile)
 _BREW
 
 	;;

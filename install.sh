@@ -41,8 +41,8 @@ if [ ! -d "$DOTFILES_FOLDER" ]; then
 fi
 
 # Folders and symlinks
-eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/symlinks.sh)"
-eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/folders.sh)"
+eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/symlinks.sh)"
+eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/folders.sh)"
 
 # Install ViM plugins
 vim +PluginInstall +qall
@@ -50,8 +50,8 @@ vim +PluginInstall +qall
 case "$(uname)" in
 	Darwin)
 
-		eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/macos-apps.sh)"
-		eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/dotfiles/install/macos-settings.sh)"
+		eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/macos-apps.sh)"
+		eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/macos-settings.sh)"
 
 	;;
 esac
