@@ -44,9 +44,6 @@ fi
 eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/symlinks.sh)"
 eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/folders.sh)"
 
-# Install ViM plugins
-vim +PluginInstall +qall
-
 case "$(uname)" in
 	Darwin)
 
@@ -55,3 +52,7 @@ case "$(uname)" in
 
 	;;
 esac
+
+# Install ViM plugins
+vim +PluginInstall +qall
+
