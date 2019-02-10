@@ -5,5 +5,6 @@ mkdir -p "${HOME}/Development/personal"
 mkdir -p "${HOME}/Development/work"
 mkdir -p "${HOME}/Screenshots"
 mkdir -p "${HOME}/bin"
+mkdir -p "${HOME}/tmp"
 
 
