@@ -72,7 +72,7 @@ cask 'numi'			# Text calculator
 cask '1password'		# Install 1password7
 # cask 'balenaetcher'		# Writing images to USB and SD cards
 # cask 'keycastr'		# Screencasting key presses
-# cask 'little-snitch'		# Application Firewall, this only downloads the installer, needs additional steps
+cask 'little-snitch'		# Application Firewall, this only downloads the installer, needs additional steps
 
 # Developer Tools
 cask 'atom'			# Gegeral IDE
@@ -94,7 +94,7 @@ mas 'Airmail 3',	id: 918858936		# Preferred email client
 mas 'DigiDoc4 Client',	id: 1370791134		# Digital signing application for EstEID
 mas 'HazeOver',		id: 430798174		# Helps to focus on app
 mas 'Next Meeting',	id: 1017470484		# Display next calendar meeting in menu bar
-# mas 'Daisydisk',	id: 411643860		# See how you use space on your harddrives
+mas 'Daisydisk',	id: 411643860		# See how you use space on your harddrives
 
 # Media 
 # mas 'Final Cut Pro',	id: 424389933
