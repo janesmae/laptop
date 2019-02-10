@@ -17,7 +17,7 @@ brew 'zsh'			# Better shell
 
 # Missing Utilities
 brew 'curl'
-brew 'grep', args: ['with-default-names']
+brew 'grep'
 brew 'jo'			# JSON output from CLI
 brew 'jq'			# CLI JSON processor
 brew 'nmap'			# Network Mapper
