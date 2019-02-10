@@ -70,7 +70,7 @@ cask 'hazel'			# Automated organization of files
 cask 'micro-snitch'		# Tracks app attempts to use your microphone or camera
 cask 'numi'			# Text calculator
 cask '1password'		# Install 1password7
-# cask 'etcher'			# Writing images to USB and SD cards
+# cask 'balenaetcher'		# Writing images to USB and SD cards
 # cask 'keycastr'		# Screencasting key presses
 # cask 'little-snitch'		# Application Firewall, this only downloads the installer, needs additional steps
 
