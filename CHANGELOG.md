@@ -8,7 +8,10 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 ## [Unreleased]
 ### Added
 - New feature
-- Brewfile: Added peco
+- Brewfile
+  - Added ansible-lint
+  - Added peco
+  - Added shellcheck
 
 ### Changed
 - Changes in existing functionality
