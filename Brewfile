@@ -27,15 +27,17 @@ brew 'tree'			# Tree view for folder content
 brew 'wget'
 
 # Developer tools
+brew 'ansible-lint'		# Analyse ansible code for potential errors.
 brew 'doctl'			# A command line tool for DigitalOcean services
 brew 'git'			# Git
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'hub'			# Github flavoured Git
 brew 'icdiff'			# Improved colored diff
 brew 'iproute2mac'		# Run "ip addr show" on mac
+brew 'peco'			# Simplistic interactive filtering tool
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'the_silver_searcher'	# Code searching tool, like grep
-brew 'peco'			# Simplistic interactive filtering tool
+brew 'shellcheck'		# Static analysis of shell scripts
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store
