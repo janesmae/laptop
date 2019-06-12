@@ -44,7 +44,8 @@ brew 'shellcheck'		# Static analysis of shell scripts
 brew 'vitorgalvao/tiny-scripts/cask-repair'
 
 # Other
-brew 'hledger'
+brew 'gopass'			# Distributed password management
+brew 'hledger'			# Financial management
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store
