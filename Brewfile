@@ -81,6 +81,7 @@ cask 'little-snitch'		# Application Firewall, this only doVwnloads the installer
 cask 'micro-snitch'		# Tracks app attempts to use your microphone or camera
 cask 'numi'			# Text calculator
 cask 'swish'			# The missing gesture layer for macOS
+cask 'the-unarchiver'		# Application for unarchiving files
 # cask 'balenaetcher'		# Writing images to USB and SD cards
 # cask 'keycastr'		# Screencasting key presses
 
