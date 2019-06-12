@@ -40,6 +40,12 @@ brew 'the_silver_searcher'	# Code searching tool, like grep
 brew 'shellcheck'		# Static analysis of shell scripts
 # brew 'doctl'			# A command line tool for DigitalOcean services
 
+# Brew cask repair
+brew 'vitorgalvao/tiny-scripts/cask-repair'
+
+# Other
+brew 'hledger'
+
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store
 
