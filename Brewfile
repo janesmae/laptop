@@ -27,8 +27,8 @@ brew 'tree'			# Tree view for folder content
 brew 'wget'
 
 # Developer tools
-brew 'ansible-lint'		# Analyse ansible code for potential errors.
-brew 'doctl'			# A command line tool for DigitalOcean services
+brew 'ansible-lint'		# Analyse ansible code for potential errors
+brew 'awscli'			# AWS Commandline tools
 brew 'git'			# Git
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'hub'			# Github flavoured Git
@@ -38,6 +38,7 @@ brew 'peco'			# Simplistic interactive filtering tool
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'the_silver_searcher'	# Code searching tool, like grep
 brew 'shellcheck'		# Static analysis of shell scripts
+# brew 'doctl'			# A command line tool for DigitalOcean services
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store
@@ -57,24 +58,25 @@ cask 'google-chrome'
 cask 'signal'			# Encrypted communications
 cask 'skype'			# Online video calls, chat
 cask 'slack'			# Team chats
-# cask 'mumble'			# Voice chat, seasonal usage
-# cask 'rocket-chat'		# Team chats, seasonal usage
+cask 'mumble'			# Voice chat, seasonal usage
+cask 'rocket-chat'		# Team chats, seasonal usage
 
 # Media
 # cask 'soundcleod'		# Soundcloud desktop application
 
 # Utilities
+cask '1password'		# Install 1password7
 cask 'alfred'			# Little helper all around
 cask 'appcleaner'		# Application remover
 cask 'bartender'		# Menu bar helper
 cask 'gpg-suite'		# Encryption
 cask 'hazel'			# Automated organization of files
+cask 'little-snitch'		# Application Firewall, this only doVwnloads the installer, needs additional steps
 cask 'micro-snitch'		# Tracks app attempts to use your microphone or camera
 cask 'numi'			# Text calculator
-cask '1password'		# Install 1password7
+cask 'swish'			# The missing gesture layer for macOS
 # cask 'balenaetcher'		# Writing images to USB and SD cards
 # cask 'keycastr'		# Screencasting key presses
-cask 'little-snitch'		# Application Firewall, this only downloads the installer, needs additional steps
 
 # Developer Tools
 cask 'atom'			# Gegeral IDE
