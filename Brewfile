@@ -89,6 +89,7 @@ cask 'the-unarchiver'		# Application for unarchiving files
 
 # Developer Tools
 cask 'atom'			# Gegeral IDE
+cask 'docker'			# Docker for Mac
 # cask 'arduino'		# Aruduino IDE
 
 # 3D Printing / Designer
