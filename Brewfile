@@ -17,6 +17,7 @@ brew 'zsh'			# Better shell
 
 # Missing Utilities
 brew 'curl'
+brew 'fdupes'			# Finding duplicate files
 brew 'grep'
 brew 'jo'			# JSON output from CLI
 brew 'jq'			# CLI JSON processor
