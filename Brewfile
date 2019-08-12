@@ -28,7 +28,6 @@ brew 'tree'			# Tree view for folder content
 brew 'wget'
 
 # Developer tools
-brew 'ansible-lint'		# Analyse ansible code for potential errors
 brew 'awscli'			# AWS Commandline tools
 brew 'git'			# Git
 brew 'git-standup'		# Better git log, multiple repo support
