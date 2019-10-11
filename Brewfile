@@ -28,7 +28,6 @@ brew 'tree'			# Tree view for folder content
 brew 'wget'
 
 # Developer tools
-brew 'awscli'			# AWS Commandline tools
 brew 'git'			# Git
 brew 'git-standup'		# Better git log, multiple repo support
 brew 'hub'			# Github flavoured Git
@@ -38,6 +37,7 @@ brew 'peco'			# Simplistic interactive filtering tool
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'the_silver_searcher'	# Code searching tool, like grep
 brew 'shellcheck'		# Static analysis of shell scripts
+# brew 'awscli'			# AWS Commandline tools
 # brew 'doctl'			# A command line tool for DigitalOcean services
 
 # Brew cask repair
@@ -45,7 +45,7 @@ brew 'vitorgalvao/tiny-scripts/cask-repair'
 
 # Other
 brew 'gopass'			# Distributed password management
-brew 'hledger'			# Financial management
+# brew 'hledger'			# Financial management
 
 # MacAppStore
 brew 'mas'			# CLI version of Mac App Store
@@ -99,9 +99,6 @@ cask 'docker'			# Docker for Mac
 cask "font-hack-nerd-font"
 
 ## MacAppStore ##
-
-# E-mail
-mas 'Airmail 3',	id: 918858936		# Preferred email client
 
 # Utilities
 mas 'DigiDoc4 Client',	id: 1370791134		# Digital signing application for EstEID
