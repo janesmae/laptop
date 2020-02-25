@@ -65,6 +65,7 @@ cask 'google-chrome'
 cask 'signal'			# Encrypted communications
 cask 'skype'			# Online video calls, chat
 cask 'slack'			# Team chats
+cask 'mattermost'		# Team chats
 cask 'mumble'			# Voice chat, seasonal usage
 cask 'rocket-chat'		# Team chats, seasonal usage
 
