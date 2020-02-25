@@ -37,6 +37,7 @@ brew 'peco'			# Simplistic interactive filtering tool
 brew 'progress'			# Show progress for cp, mv, dd, ..
 brew 'the_silver_searcher'	# Code searching tool, like grep
 brew 'shellcheck'		# Static analysis of shell scripts
+brew 'visual-studio-code'	# IDE for some programming work
 # brew 'awscli'			# AWS Commandline tools
 # brew 'doctl'			# A command line tool for DigitalOcean services
 
