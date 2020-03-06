@@ -56,6 +56,7 @@ cask_args appdir: '/Applications'
 
 # Terminal
 cask 'iterm2'			# Replacement terminal with shell integration
+cask 'sekey'			# Use Touch ID / Secure Enclave for SSH Authentication!
 
 # Browsers
 cask 'firefox'
