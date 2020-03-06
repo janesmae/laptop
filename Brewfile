@@ -75,6 +75,7 @@ cask 'rocket-chat'		# Team chats, seasonal usage
 
 # Utilities
 cask '1password'		# Install 1password7
+cask '1password-cli'		# Install 1password7 CLI
 cask 'alfred'			# Little helper all around
 cask 'appcleaner'		# Application remover
 cask 'bartender'		# Menu bar helper
