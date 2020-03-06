@@ -7,22 +7,11 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ## [Unreleased]
 ### Added
-- New feature
-
-### Changed
-- Changes in existing functionality
-
-### Deprecated
-- Soon-to-be removed feature
+- Added sekey, docker, fdupes, vistual-studio-code to Brewfile
+- Added additional folders to be created during install
 
 ### Removed
-- Removed feature
-
-### Fixed
-- Bugfix
-
-### Security
-- Fixed vulnerability
+- Removed airmail from Brewfile
 
 
 ## [0.1] - 2019-02-19
