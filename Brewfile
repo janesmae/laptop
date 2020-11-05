@@ -29,7 +29,7 @@ brew 'wget'
 
 # Developer tools
 brew 'git'			# Git
-brew 'git-standup'		# Better git log, multiple repo support
+brew 'git-extras'		# Better git tools
 brew 'hub'			# Github flavoured Git
 brew 'icdiff'			# Improved colored diff
 brew 'iproute2mac'		# Run "ip addr show" on mac
