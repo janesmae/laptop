@@ -7,7 +7,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 
 ## [Unreleased]
 ### Added
-- Added sekey, docker, fdupes, vistual-studio-code to Brewfile
+- Added 1password-cli, docker, fdupes, sekey, vistual-studio-code to Brewfile
 - Added additional folders to be created during install
 
 ### Removed

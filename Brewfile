@@ -29,7 +29,7 @@ brew 'wget'
 
 # Developer tools
 brew 'git'			# Git
-brew 'git-standup'		# Better git log, multiple repo support
+brew 'git-extras'		# Better git tools
 brew 'hub'			# Github flavoured Git
 brew 'icdiff'			# Improved colored diff
 brew 'iproute2mac'		# Run "ip addr show" on mac
@@ -75,6 +75,7 @@ cask 'rocket-chat'		# Team chats, seasonal usage
 
 # Utilities
 cask '1password'		# Install 1password7
+cask '1password-cli'		# Install 1password7 CLI
 cask 'alfred'			# Little helper all around
 cask 'appcleaner'		# Application remover
 cask 'bartender'		# Menu bar helper
