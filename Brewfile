@@ -61,6 +61,7 @@ cask 'sekey'                      # Use Touch ID / Secure Enclave for SSH Authen
 # Browsers
 cask 'firefox'
 cask 'google-chrome'
+cask 'brave-browser'
 
 # Communications
 cask 'discord'                    # Community and voice Chats
