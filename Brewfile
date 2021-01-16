@@ -63,12 +63,13 @@ cask 'firefox'
 cask 'google-chrome'
 
 # Communications
-cask 'signal'			# Encrypted communications
-cask 'skype'			# Online video calls, chat
-cask 'slack'			# Team chats
+cask 'discord'			# Community and voice Chats
 cask 'mattermost'		# Team chats
 cask 'mumble'			# Voice chat, seasonal usage
 cask 'rocket-chat'		# Team chats, seasonal usage
+cask 'signal'			# Encrypted communications
+cask 'skype'			# Online video calls, chat
+cask 'slack'			# Team chats
 
 # Media
 # cask 'soundcleod'		# Soundcloud desktop application
