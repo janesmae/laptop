@@ -26,3 +26,7 @@ test -e "${HOME}/.ssh" || ln -sfn "${HOME}/.files/ssh/" "${HOME}/.ssh"
 ## Tmux
 test -e "${HOME}/.tmux.conf" || ln -sfn "${HOME}/.files/tmux/tmux.conf" "${HOME}/.tmux.conf"
 test -e "${HOME}/.tmux" || ln -sfn "${HOME}/.files/tmux/" "${HOME}/.tmux"
+
+## Mutt
+test -e "${HOME}/.muttrc" || ln -sfn "${HOME}/.files/mutt/muttrc" "${HOME}/.muttrc"
+test -e "${HOME}/.mutt" || ln -sfn "${HOME}/.files/mutt/" "${HOME}/.mutt"
