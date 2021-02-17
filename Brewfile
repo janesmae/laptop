@@ -77,6 +77,7 @@ cask 'slack'                      # Team chats
 
 # Utilities
 cask '1password'                  # Install 1password7
+cask 'aldente'                    # Power management
 cask 'alfred'                     # Little helper all around
 cask 'appcleaner'                 # Application remover
 cask 'bartender'                  # Menu bar helper
