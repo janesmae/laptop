@@ -12,7 +12,7 @@ case "$(uname)" in
 	Darwin)
 		if [ ! -f "$(command -v brew)" ]; then
 			# Install Homebrew
-			/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+			/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 		fi
 	;;
 esac
@@ -55,4 +55,3 @@ esac
 
 # Install ViM plugins
 vim +PluginInstall +qall
-
