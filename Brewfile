@@ -12,20 +12,20 @@ brew 'coreutils'                  # GNU Coreutils
 brew 'moreutils'                  # Missing Coreutils
 
 # Essential
+brew 'curl'
+brew 'grep'
 brew 'vim'                        # Update to Vim8
+brew 'wget'
 brew 'zsh'                        # Better shell
 
 # Missing Utilities
-brew 'curl'
 brew 'fdupes'                     # Finding duplicate files
-brew 'grep'
 brew 'jo'                         # JSON output from CLI
 brew 'jq'                         # CLI JSON processor
 brew 'nmap'                       # Network Mapper
 brew 'p7zip'                      # Unzip weird stuff
 brew 'tmux'                       # Terminal multiplexer
 brew 'tree'                       # Tree view for folder content
-brew 'wget'
 
 # Developer tools
 brew 'git'                        # Git
@@ -77,7 +77,7 @@ cask 'slack'                      # Team chats
 
 # Utilities
 cask '1password'                  # Install 1password7
-cask 'aldente'                    # Power management
+# cask 'aldente'                  # Power management
 cask 'alfred'                     # Little helper all around
 cask 'appcleaner'                 # Application remover
 cask 'bartender'                  # Menu bar helper
@@ -94,7 +94,7 @@ cask 'the-unarchiver'             # Application for unarchiving files
 # Developer Tools
 cask 'atom'                       # Gegeral IDE
 cask 'docker'                     # Docker for Mac
-cask 'visual-studio-code'         # IDE for some programming work
+# cask 'visual-studio-code'       # IDE for some programming work
 # cask 'arduino'                  # Aruduino IDE
 
 # 3D Printing / Designer
