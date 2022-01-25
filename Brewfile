@@ -36,6 +36,7 @@ brew "icdiff"                     # Improved colored diff
 brew "iproute2mac"                # Run "ip addr show" on mac
 brew "peco"                       # Simplistic interactive filtering tool
 brew "progress"                   # Show progress for cp, mv, dd, ..
+brew "pyenv"                      # Python Envoronments
 brew "shellcheck"                 # Static analysis of shell scripts
 brew "the_silver_searcher"        # Code searching tool, like grep
 # brew "awscli"                   # AWS Commandline tools
