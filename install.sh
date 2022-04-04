@@ -40,6 +40,9 @@ if [ ! -d "$DOTFILES_FOLDER" ]; then
 	fi
 fi
 
+# load homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Folders and symlinks
 eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/symlinks.sh)"
 eval "$(curl -fsSL https://raw.githubusercontent.com/janesmae/laptop/master/folders.sh)"

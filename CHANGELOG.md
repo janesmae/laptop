@@ -11,7 +11,7 @@ and this project adheres to [Romantic Versioning](http://dafoster.net/articles/2
 - Added additional folders to be created during install
 
 ### Removed
-- Removed airmail from Brewfile
+- Removed airmail and hledger from Brewfile
 
 
 ## [0.1] - 2019-02-19
