@@ -4,7 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
-tap "vitorgalvao/tiny-scripts"
+# tap "vitorgalvao/tiny-scripts"
 
 ## Homebrew applications ##
 
@@ -43,10 +43,10 @@ brew "the_silver_searcher"        # Code searching tool, like grep
 # brew "doctl"                    # A command line tool for DigitalOcean services
 
 # Brew cask repair
-brew "vitorgalvao/tiny-scripts/cask-repair"
+# brew "vitorgalvao/tiny-scripts/cask-repair"
 
 # Other
-brew "gopass"                     # Distributed password management
+# brew "gopass"                     # Distributed password management
 
 # MacAppStore
 brew "mas"                        # CLI version of Mac App Store
@@ -57,7 +57,7 @@ cask_args appdir: "/Applications"
 
 # Terminal
 cask "iterm2"                     # Replacement terminal with shell integration
-cask "sekey"                      # Use Touch ID / Secure Enclave for SSH Authentication!
+# cask "sekey"                      # Use Touch ID / Secure Enclave for SSH Authentication!
 
 # Browsers
 cask "brave-browser"
@@ -67,18 +67,17 @@ cask "google-chrome"
 # Communications
 cask "discord"                    # Community and voice Chats
 cask "mattermost"                 # Team chats
-cask "mumble"                     # Voice chat, seasonal usage
-cask "rocket-chat"                # Team chats, seasonal usage
 cask "signal"                     # Encrypted communications
-cask "skype"                      # Online video calls, chat
-cask "slack"                      # Team chats
+# cask "skype"                      # Online video calls, chat
+# cask "mumble"                     # Voice chat, seasonal usage
+# cask "rocket-chat"                # Team chats, seasonal usage
+# cask "slack"                      # Team chats
 
 # Media
 # cask "soundcleod"               # Soundcloud desktop application
 
 # Utilities
 cask "1password"                  # Install 1password7
-# cask "aldente"                  # Power management
 cask "alfred"                     # Little helper all around
 cask "appcleaner"                 # Application remover
 cask "bartender"                  # Menu bar helper
@@ -90,13 +89,14 @@ cask "micro-snitch"               # Tracks app attempts to use your microphone o
 cask "numi"                       # Text calculator
 cask "swish"                      # The missing gesture layer for macOS
 cask "the-unarchiver"             # Application for unarchiving files
+# cask "aldente"                  # Power management
 # cask "balenaetcher"             # Writing images to USB and SD cards
 # cask "hazeover"                 # Helps to focus on app, !plan to use brew version
 # cask "keycastr"                 # Screencasting key presses
 
 # Developer Tools
-cask "atom"                       # Gegeral IDE
-cask "docker"                     # Docker for Mac
+# cask "atom"                       # Gegeral IDE
+# cask "docker"                     # Docker for Mac
 # cask "arduino"                  # Aruduino IDE
 # cask "visual-studio-code"       # IDE for some programming work
 
