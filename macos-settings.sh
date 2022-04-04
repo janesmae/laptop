@@ -4,13 +4,13 @@ case "$(uname)" in
 	Darwin)
 
 # Ask for computer name
-echo Please enter the desired hostname [j5nesh]:
+echo Please enter the desired hostname [j2nesh]:
 read -r HOSTVAR
 
 # Rename the computer
-sudo scutil --set ComputerName "${HOSTVAR:-j5nesh}"
-sudo scutil --set HostName "${HOSTVAR:-j5nesh}"
-sudo scutil --set LocalHostName "${HOSTVAR:-j5nesh}"
+sudo scutil --set ComputerName "${HOSTVAR:-j2nesh}"
+sudo scutil --set HostName "${HOSTVAR:-j2nesh}"
+sudo scutil --set LocalHostName "${HOSTVAR:-j2nesh}"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "${HOSTVAR:-j5nesh}"
 
 # Add message to lock screen
