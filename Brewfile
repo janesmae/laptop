@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "azure/functions"
 # tap "vitorgalvao/tiny-scripts"
 
 ## Homebrew applications ##
@@ -18,8 +19,10 @@ brew "grep"
 brew "vim"                        # Update to Vim8
 brew "wget"
 brew "zsh"                        # Better shell
+brew "zsh-completions"            # Even better shell
 
 # Missing Utilities
+brew "1password-cli"              # 1password CLI
 brew "fdupes"                     # Finding duplicate files
 brew "jo"                         # JSON output from CLI
 brew "jq"                         # CLI JSON processor
@@ -29,24 +32,33 @@ brew "tmux"                       # Terminal multiplexer
 brew "tree"                       # Tree view for folder content
 
 # Developer tools
+brew "azure/functions/azure-functions-core-tools@4"
 brew "git"                        # Git
 brew "git-extras"                 # Better git tools
+brew "gh"                         # Github CLI
+brew "helm"                       # K8s application management
 brew "hub"                        # Github flavoured Git
 brew "icdiff"                     # Improved colored diff
 brew "iproute2mac"                # Run "ip addr show" on mac
+brew "k6"                         # k6.io - loadtesting
 brew "peco"                       # Simplistic interactive filtering tool
 brew "progress"                   # Show progress for cp, mv, dd, ..
 brew "pyenv"                      # Python Envoronments
 brew "shellcheck"                 # Static analysis of shell scripts
 brew "the_silver_searcher"        # Code searching tool, like grep
-# brew "awscli"                   # AWS Commandline tools
-# brew "doctl"                    # A command line tool for DigitalOcean services
+# brew "act"                        # Run your GitHub Actions locally
+
+# Runtime Envoronments
+brew "node@16"                    # NodeJS
+# brew "postgresql@14"              # PostgreSQL Database
+
+# Cloud CLI Tools
+brew "azure-cli"                  # Azure Commandline Tools
+# brew "awscli"                   # AWS Commandline Tools
+# brew "doctl"                    # DigitalOcean Commandline Tools
 
 # Brew cask repair
 # brew "vitorgalvao/tiny-scripts/cask-repair"
-
-# Other
-# brew "gopass"                     # Distributed password management
 
 # MacAppStore
 brew "mas"                        # CLI version of Mac App Store
@@ -57,7 +69,7 @@ cask_args appdir: "/Applications"
 
 # Terminal
 cask "iterm2"                     # Replacement terminal with shell integration
-# cask "sekey"                      # Use Touch ID / Secure Enclave for SSH Authentication!
+cask "sekey"                      # Use Touch ID / Secure Enclave for SSH Authentication!
 
 # Browsers
 cask "brave-browser"
@@ -95,10 +107,16 @@ cask "the-unarchiver"             # Application for unarchiving files
 # cask "keycastr"                 # Screencasting key presses
 
 # Developer Tools
-# cask "atom"                       # Gegeral IDE
-# cask "docker"                     # Docker for Mac
+cask "atom"                       # Gegeral IDE
+cask "docker"                     # Docker for Mac
+cask "postman"                    # API testing / building
+cask "postman-agent"
 # cask "arduino"                  # Aruduino IDE
 # cask "visual-studio-code"       # IDE for some programming work
+
+# Business needs
+# cask "forticlient-vpn"
+# cask "microsoft-remote-desktop"
 
 # 3D Printing / Designer
 # cask "ultimaker-cura"
